@@ -1,0 +1,9 @@
+/venv
+/Templates
+/Load
+/Logs
+/in_process
+/processed
+/tests/*
+!/tests/test.py
+/.pytest_cache
