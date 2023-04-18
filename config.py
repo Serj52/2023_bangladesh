@@ -27,9 +27,9 @@ class Config:
             'IPC': 'https://www.bb.org.bd/en/inde'
         }
         bad_period = os.path.join(folder_root, 'tests', 'bad_period.json')
-        rabbit_host = '1docz-s-app01.gk.rosatom.local'
-        rabbit_login = 'rpauser'
-        rabbit_pwd = os.environ['rabbit_pwd']
+        rabbit_host = ''
+        rabbit_login = ''
+        rabbit_pwd = os.environ['']
         queue_request = 'rpa.request.bangladesh'
         queue_response = 'rpa.respond.bangladesh'
         # queue_request = 'hello'
